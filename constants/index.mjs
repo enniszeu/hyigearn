@@ -104,7 +104,7 @@ export const categories = [
   {
     _id: 1012,
     name: "Combo Ưu Đãi",
-    image: "https://lh3.google.com/u/0/d/1hAnsidi5WVrh0EysbMXmsZzgOSg_qUvU=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/2.png?v=1733068647069",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "camerasAndPhotos",
