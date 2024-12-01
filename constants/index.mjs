@@ -16,7 +16,7 @@ export const categories = [
   {
     _id: 1001,
     name: "Gaming",
-    image: "https://lh3.google.com/u/0/d/1Y33gpgXazsN1A9Gq5Lv8Idg-KfxLOFTF=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/1.png?v=1733068359970",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvAndAudio",
@@ -24,7 +24,7 @@ export const categories = [
   {
     _id: 1002,
     name: "Mô Hình",
-    image: "https://lh3.google.com/u/0/d/1fO9oPZ4-Gn5BX6BSOsizwQZaHSrtPTIJ=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/11.png?v=1733068390881",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvBox",
@@ -32,7 +32,7 @@ export const categories = [
   {
     _id: 1003,
     name: "Bàn Phím",
-    image: "https://lh3.google.com/u/0/d/11PT231cQMREHPreoArWrn_0ekLEKCVjl=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/10.png?v=1733068387325",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "banphim",
@@ -40,7 +40,7 @@ export const categories = [
   {
     _id: 1004,
     name: "Headphones",
-    image: "https://lh3.google.com/u/0/d/1vi6wK991De5Z8g91h0Yk2iW6d-oJBPW5=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/9.png?v=1733068383831",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "headphones",
@@ -48,7 +48,7 @@ export const categories = [
   {
     _id: 1005,
     name: "Phụ Kiện Máy Tính",
-    image: "https://lh3.google.com/u/0/d/1d8jSE0-bRsYP-Ru2q9J1k6G4d5MvGrlf=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/3.png?v=1733068361989",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "cellPhones",
@@ -56,7 +56,7 @@ export const categories = [
   {
     _id: 1006,
     name: "Phụ Kiện Trang Trí",
-    image: "https://lh3.google.com/u/0/d/1QtSK1_8WoYTXdvgofU1bqcblYzCLFZod=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/8.png?v=1733068379988",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "smartWatches",
@@ -64,7 +64,7 @@ export const categories = [
   {
     _id: 1007,
     name: "KeyCaps Gaming",
-    image: "https://lh3.google.com/u/0/d/1kOpmGel8xbc2B8i6Rp-S_PXIZVkVsqXl=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/7.png?v=1733068376856",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "gameAndVideo",
@@ -72,7 +72,7 @@ export const categories = [
   {
     _id: 1008,
     name: "Chuột",
-    image: "https://lh3.google.com/u/0/d/1N69oDkQ8pI2VdUtwCj13gVJD3vompcAC=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/5.png?v=1733068370078",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "robotClean",
@@ -80,7 +80,7 @@ export const categories = [
   {
     _id: 1009,
     name: "Loa, Microphone, Webcam",
-    image: "https://lh3.google.com/u/0/d/14IhuGooC4MXaeYshKyt4MW2Xx20HXs1B=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/4.png?v=1733068365486",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "sportWatches",
@@ -88,7 +88,7 @@ export const categories = [
   {
     _id: 1010,
     name: "Linh Kiện Máy Tính",
-    image: "https://lh3.google.com/u/0/d/1W9hzPJKy8vrKVEWOGGBBA_Rkgcn5us1t=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/6.png?v=1733068373637",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tablets",
@@ -96,7 +96,7 @@ export const categories = [
   {
     _id: 1011,
     name: "Lót Chuột",
-    image: "https://lh3.google.com/u/0/d/1ucsaYgBkYP2DHAF334yzxL21zxY04jvz=w1367-h953-iv1",
+    image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/33.png?v=1733068395744",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "computersAndLaptop",
