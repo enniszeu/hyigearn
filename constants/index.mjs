@@ -15,8 +15,8 @@ const cat = {
 export const categories = [
   {
     _id: 1001,
-    name: "Gaming Gearn",
-    image: "https://i.ibb.co/kM0FR2h/cat-Tv-Audio.webp",
+    name: "Gaming",
+    image: "https://lh3.google.com/u/0/d/1Y33gpgXazsN1A9Gq5Lv8Idg-KfxLOFTF=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvAndAudio",
@@ -24,7 +24,7 @@ export const categories = [
   {
     _id: 1002,
     name: "Mô Hình",
-    image: "https://i.ibb.co/71hR65V/catTvBox.webp",
+    image: "https://lh3.google.com/u/0/d/1fO9oPZ4-Gn5BX6BSOsizwQZaHSrtPTIJ=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvBox",
@@ -32,7 +32,7 @@ export const categories = [
   {
     _id: 1003,
     name: "Bàn Phím",
-    image: "https://i.ibb.co/0V0g6Gz/cat-Powertool.webp",
+    image: "https://lh3.google.com/u/0/d/11PT231cQMREHPreoArWrn_0ekLEKCVjl=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "banphim",
@@ -40,7 +40,7 @@ export const categories = [
   {
     _id: 1004,
     name: "Headphones",
-    image: "https://i.ibb.co/zST2Xdp/cat-Headphone.webp",
+    image: "https://lh3.google.com/u/0/d/1vi6wK991De5Z8g91h0Yk2iW6d-oJBPW5=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "headphones",
@@ -48,7 +48,7 @@ export const categories = [
   {
     _id: 1005,
     name: "Phụ Kiện Máy Tính",
-    image: "https://i.ibb.co/jgk59BL/catPhone.webp",
+    image: "https://lh3.google.com/u/0/d/1d8jSE0-bRsYP-Ru2q9J1k6G4d5MvGrlf=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "cellPhones",
@@ -56,7 +56,7 @@ export const categories = [
   {
     _id: 1006,
     name: "Phụ Kiện Trang Trí",
-    image: "https://i.ibb.co/B4NKfBZ/cat-Smart-Watch.webp",
+    image: "https://lh3.google.com/u/0/d/1QtSK1_8WoYTXdvgofU1bqcblYzCLFZod=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "smartWatches",
@@ -64,7 +64,7 @@ export const categories = [
   {
     _id: 1007,
     name: "KeyCaps Gaming",
-    image: "https://i.ibb.co/4gwLwT2/cat-Gaming.webp",
+    image: "https://lh3.google.com/u/0/d/1kOpmGel8xbc2B8i6Rp-S_PXIZVkVsqXl=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "gameAndVideo",
@@ -72,7 +72,7 @@ export const categories = [
   {
     _id: 1008,
     name: "Chuột",
-    image: "https://i.ibb.co/xjpdQrr/cat-Robot-Clean.webp",
+    image: "https://lh3.google.com/u/0/d/1N69oDkQ8pI2VdUtwCj13gVJD3vompcAC=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "robotClean",
@@ -80,7 +80,7 @@ export const categories = [
   {
     _id: 1009,
     name: "Loa, Microphone, Webcam",
-    image: "https://i.ibb.co/HdNVLzh/cat-Sport-Watch.webp",
+    image: "https://lh3.google.com/u/0/d/14IhuGooC4MXaeYshKyt4MW2Xx20HXs1B=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "sportWatches",
@@ -88,7 +88,7 @@ export const categories = [
   {
     _id: 1010,
     name: "Linh Kiện Máy Tính",
-    image: "https://i.ibb.co/qCzTx4F/cat-Tablet.webp",
+    image: "https://lh3.google.com/u/0/d/1W9hzPJKy8vrKVEWOGGBBA_Rkgcn5us1t=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tablets",
@@ -96,7 +96,7 @@ export const categories = [
   {
     _id: 1011,
     name: "Lót Chuột",
-    image: "https://i.ibb.co/74bZ8PH/cat-Computer.webp",
+    image: "https://lh3.google.com/u/0/d/1ucsaYgBkYP2DHAF334yzxL21zxY04jvz=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "computersAndLaptop",
@@ -104,7 +104,7 @@ export const categories = [
   {
     _id: 1012,
     name: "Combo Ưu Đãi",
-    image: "https://i.ibb.co/SVQVWSS/cat-Camera.webp",
+    image: "https://lh3.google.com/u/0/d/1hAnsidi5WVrh0EysbMXmsZzgOSg_qUvU=w1367-h953-iv1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "camerasAndPhotos",
