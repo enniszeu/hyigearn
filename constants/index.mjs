@@ -1,5 +1,5 @@
 const cat = {
-  tvAndAudio: "tvAndAudio",
+  banphim: "banphim",
   tvBox: "tvBox",
   powerTools: "powerTools",
   headphones: "headphones",
@@ -15,7 +15,7 @@ const cat = {
 export const categories = [
   {
     _id: 1001,
-    name: "TV & Audio",
+    name: "Gaming Gearn",
     image: "https://i.ibb.co/kM0FR2h/cat-Tv-Audio.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -23,7 +23,7 @@ export const categories = [
   },
   {
     _id: 1002,
-    name: "TV Box",
+    name: "Mô Hình",
     image: "https://i.ibb.co/71hR65V/catTvBox.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -31,11 +31,11 @@ export const categories = [
   },
   {
     _id: 1003,
-    name: "Power Tools",
+    name: "Bàn Phím",
     image: "https://i.ibb.co/0V0g6Gz/cat-Powertool.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "powerTools",
+    _base: "banphim",
   },
   {
     _id: 1004,
@@ -47,7 +47,7 @@ export const categories = [
   },
   {
     _id: 1005,
-    name: "Cell Phones",
+    name: "Phụ Kiện Máy Tính",
     image: "https://i.ibb.co/jgk59BL/catPhone.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -55,7 +55,7 @@ export const categories = [
   },
   {
     _id: 1006,
-    name: "Smart Watches",
+    name: "Phụ Kiện Trang Trí",
     image: "https://i.ibb.co/B4NKfBZ/cat-Smart-Watch.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -63,7 +63,7 @@ export const categories = [
   },
   {
     _id: 1007,
-    name: "Game & Video",
+    name: "KeyCaps Gaming",
     image: "https://i.ibb.co/4gwLwT2/cat-Gaming.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -71,7 +71,7 @@ export const categories = [
   },
   {
     _id: 1008,
-    name: "Robot Clean",
+    name: "Chuột",
     image: "https://i.ibb.co/xjpdQrr/cat-Robot-Clean.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -79,7 +79,7 @@ export const categories = [
   },
   {
     _id: 1009,
-    name: "Sport Watches",
+    name: "Loa, Microphone, Webcam",
     image: "https://i.ibb.co/HdNVLzh/cat-Sport-Watch.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -87,7 +87,7 @@ export const categories = [
   },
   {
     _id: 1010,
-    name: "Tablets",
+    name: "Linh Kiện Máy Tính",
     image: "https://i.ibb.co/qCzTx4F/cat-Tablet.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -95,7 +95,7 @@ export const categories = [
   },
   {
     _id: 1011,
-    name: "Computers & Laptop",
+    name: "Lót Chuột",
     image: "https://i.ibb.co/74bZ8PH/cat-Computer.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -103,7 +103,7 @@ export const categories = [
   },
   {
     _id: 1012,
-    name: "Cameras & Photos",
+    name: "Combo Ưu Đãi",
     image: "https://i.ibb.co/SVQVWSS/cat-Camera.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
@@ -145,7 +145,7 @@ export const blogsData = [
   {
     _id: 4001,
     image: "https://i.ibb.co/XbQf5HS/blogOne.webp",
-    title: "iPhone 15 rear camera design will be available",
+    title: "Thiết kế camera sau iPhone 15 sẽ có",
     _base: "Technology",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae minus atque ratione. Sequi eos aspernatur delectus officia nemo ipsum facere debitis fugiat eum, quod quia, eligendi nihil sapiente perferendis modi quisquam reiciendis minima esse dolorem, molestias aut? Eum, repudiandae sit ipsum officiis unde reprehenderit inventore odio doloremque recusandae nobis voluptatem ipsa atque, veritatis adipisci reiciendis.",
@@ -153,7 +153,7 @@ export const blogsData = [
   {
     _id: 4002,
     image: "https://i.ibb.co/wzNpcwp/blogTwo.webp",
-    title: "Setup your surround sound speaker",
+    title: "Thiết lập loa âm thanh vòm của bạn",
     _base: "Samrt thing",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae minus atque ratione. Sequi eos aspernatur delectus officia nemo ipsum facere debitis fugiat eum, quod quia, eligendi nihil sapiente perferendis modi quisquam reiciendis minima esse dolorem, molestias aut? Eum, repudiandae sit ipsum officiis unde reprehenderit inventore odio doloremque recusandae nobis voluptatem ipsa atque, veritatis adipisci reiciendis.",
@@ -161,7 +161,7 @@ export const blogsData = [
   {
     _id: 4003,
     image: "https://i.ibb.co/prdZ3s8/blog-Three.webp",
-    title: "Hook up a receiver for your home theater",
+    title: "Kết nối một máy thu cho rạp hát tại nhà của bạn",
     _base: "Life style",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae minus atque ratione. Sequi eos aspernatur delectus officia nemo ipsum facere debitis fugiat eum, quod quia, eligendi nihil sapiente perferendis modi quisquam reiciendis minima esse dolorem, molestias aut? Eum, repudiandae sit ipsum officiis unde reprehenderit inventore odio doloremque recusandae nobis voluptatem ipsa atque, veritatis adipisci reiciendis.",
@@ -271,28 +271,28 @@ export const products = [
   },
   {
     _id: 2005,
-    name: "Redmi Xiaoai Speaker Play 2.4GHz 1.75 Inch Voice Remote Control Music Player Bluetooth 4.2 Mi Speaker For Android Iphone",
+    name: "BỘ PHÍM CHUỘT KHÔNG DÂY MOFII HELLO BEAR NÂU",
     images: [
-      "https://i.ibb.co/tqYyH3G/speaker.webp",
-      "https://i.ibb.co/m6ZN7LX/soundBox.webp",
-      "https://i.ibb.co/wdV3b9q/vaccum.webp",
-      "https://i.ibb.co/tcdSfrr/blueGun.jpg",
+      "https://lacdau.com/media/product/250-4011-vang-2.png",
+      "https://lacdau.com/media/product/250-4011-vang-1.png",
+      "https://lacdau.com/media/product/250-4011-vang-4.png",
+      "https://lacdau.com/media/product/250-4011-vang-3.png",
       "https://i.ibb.co/pw0fGmx/gaming-Controller.webp",
     ],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
-    regularPrice: 90,
-    discountedPrice: 80,
+      "Mofii HELLO BEAR là một bộ sản phẩm phím chuột máy tính không dây được sản xuất bởi thương hiệu Mofii kết hợp cùng Geezer đến từ Trung Quốc Sản phẩm bao gồm : 1 chuột - 1 bàn phím Kết nối : không dây 2.4G.",
+    regularPrice: 540,
+    discountedPrice: 420,
     quantity: 1,
     rating: 4.2,
     reviews: 20,
-    category: "TV & Audio",
+    category: "Bàn Phím",
     colors: ["red", "blue", "green", "yellow", "black", "white"],
-    brand: "Lorem ipsum dolor sit",
+    brand: "MOFII",
     isStock: true,
-    overView: "Blutooth Speaker",
+    overView: "Bàn Phím Gaming",
     isNew: true,
-    _base: cat?.tvAndAudio,
+    _base: cat?.banphim,
   },
   {
     _id: 2006,
@@ -475,7 +475,32 @@ export const products = [
     images: [
       "https://i.ibb.co/vqmLWww/tvBox.webp",
       "https://i.ibb.co/m6ZN7LX/soundBox.webp",
-      "https://i.ibb.co/wdV3b9q/vaccum.webp",
+      "https://lacdau.com/media/product/250-236-a518642586bdb653968d06faa8cfc6ba.jpg",
+      "https://i.ibb.co/tcdSfrr/blueGun.jpg",
+      "https://i.ibb.co/pw0fGmx/gaming-Controller.webp",
+    ],
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
+    regularPrice: 210,
+    discountedPrice: 200,
+    quantity: 1,
+    rating: 3.9,
+    reviews: 100,
+    category: "TV Box",
+    colors: ["red", "blue", "green", "yellow", "black", "white"],
+    brand: "Lorem ipsum dolor sit",
+    isStock: true,
+    overView: "TV Box",
+    isNew: true,
+    _base: cat?.tvBox,
+  },
+  {
+    _id: 2013,
+    name: "MECOOL KH3 Android 10.0 Smart 4K 60fps TV Box – Black 2GB RAM + 16GB ROM",
+    images: [
+      "https://lacdau.com/media/product/250-236-a518642586bdb653968d06faa8cfc6ba.jpg",
+      "https://i.ibb.co/vqmLWww/tvBox.webp",
+      "https://lacdau.com/media/product/250-236-a518642586bdb653968d06faa8cfc6ba.jpg",
       "https://i.ibb.co/tcdSfrr/blueGun.jpg",
       "https://i.ibb.co/pw0fGmx/gaming-Controller.webp",
     ],
