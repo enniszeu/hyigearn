@@ -124,7 +124,7 @@ export const highlightsProducts = [
   {
     _id: 3002,
     name: "Colorful Redmi  Note 6 Pro",
-    title: "From $40.00",
+    title: "Từ 59.000 VND",
     buttonTitle: "Shop Cellphone",
     image: "https://i.ibb.co/bLRNKGq/highlights-Two.webp",
     _base: "/category/cellPhones",
@@ -171,16 +171,16 @@ export const blogsData = [
 export const products = [
   {
     _id: 2001,
-    name: "Divoom Tivoo Portable Bluetooth Speaker Smart Clock Alarm Pixel Art DIY By App LED Light Sign In Decoration Unique Gift",
+    name: "LOA BLUTOOTH ĐẦU BUMBLEBEE",
     images: [
-      "https://i.ibb.co/m6ZN7LX/soundBox.webp",
-      "https://i.ibb.co/m6ZN7LX/soundBox.webp",
+      "https://lacdau.com/media/product/250-1616-87682f604f00a24de876079337846ff3.jpg",
+      "https://lacdau.com/media/product/250-1616-87682f604f00a24de876079337846ff3.jpg",
       "https://i.ibb.co/wdV3b9q/vaccum.webp",
       "https://i.ibb.co/tcdSfrr/blueGun.jpg",
       "https://i.ibb.co/pw0fGmx/gaming-Controller.webp",
     ],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
+      "Loa Bluetooth Bumblebee Transformers Độc Lạ, Âm Thanh Vòm Sống Động",
     regularPrice: 600,
     discountedPrice: 580,
     quantity: 1,
@@ -196,7 +196,7 @@ export const products = [
   },
   {
     _id: 2002,
-    name: "Xiaomi Mi Watch Lite GPS Bluetooth 5.1 Smart Watch Sports Fitness Heart Rate Monitor 1.4 Inch TFTLCD Screen 5 ATM Waterproof Mi Band",
+    name: "Xiaomi Mi Watch Lite GPS Bluetooth 5.1 ",
     images: [
       "https://i.ibb.co/2tCN9cy/watch-Three.jpg",
       "https://i.ibb.co/m6ZN7LX/soundBox.webp",
@@ -246,23 +246,23 @@ export const products = [
   },
   {
     _id: 2004,
-    name: "SJ8 Air 1290P 4K 60fps Action Camera WIFI Remote Control Waterproof Sports DV FPV Camera",
+    name: "WEBCAM MÁY TÍNH HH1714 USB 1080P",
     images: [
-      "https://i.ibb.co/bQ59C0n/wifi-Camera.webp",
+      "https://lacdau.com/media/product/250-1645-4b4ef67c0908d3f4b1039a29a2186aa1.jpg",
       "https://i.ibb.co/m6ZN7LX/soundBox.webp",
       "https://i.ibb.co/wdV3b9q/vaccum.webp",
       "https://i.ibb.co/tcdSfrr/blueGun.jpg",
       "https://i.ibb.co/pw0fGmx/gaming-Controller.webp",
     ],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
+      "Cổng cắm : USB không cần Driver FPS : 30 Hỗ trợ : windows98/2000/ME/XP/VISTA/7/8/10/MAC",
     regularPrice: 400,
     discountedPrice: 350,
     quantity: 1,
     rating: 4.2,
     reviews: 120,
     category: "Camera & Photos",
-    colors: ["red", "blue", "green", "yellow", "black", "white"],
+    colors: ["black"],
     brand: "Lorem ipsum dolor sit",
     isStock: false,
     overView: "Cameras & Photos",
