@@ -30,7 +30,7 @@ router.post("/checkout", async (req, res) => {
       mode: "payment",
       success_url:
         "https://storeeeq-42ca6.web.app/success?session_id={CHECKOUT_SESSION_ID}",
-      cancel_url: "https://storeeeq-42ca6.web.app/cancel",
+      cancel_url: "https://cellvn.com/cancel",
       metadata: {
         email,
       },
