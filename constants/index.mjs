@@ -1,5 +1,15 @@
 const cat = {
+  gameger: "gameger",
   banphim: "banphim",
+  mohinh: "mohinh",
+  phukienmaytinh: "phukienmaytinh",
+  phukientrangtri: "phukientrangtri",
+  chuot: "chuot",
+  keycaps: "keycaps",
+  loaMicromophoneWebcam: "loaMicromophoneWebcam",
+  linhkienmaytinh: "linhkienmaytinh",
+  lotchuot: "lotchuot",
+  combbouudai: "combbouudai",
   tvBox: "tvBox",
   powerTools: "powerTools",
   headphones: "headphones",
@@ -15,11 +25,11 @@ const cat = {
 export const categories = [
   {
     _id: 1001,
-    name: "Gaming",
+    name: "GameGear",
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/1.png?v=1733068359970",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "tvAndAudio",
+    _base: "gameger",
   },
   {
     _id: 1002,
@@ -27,7 +37,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/11.png?v=1733068390881",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "tvBox",
+    _base: "mohinh",
   },
   {
     _id: 1003,
@@ -51,7 +61,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/3.png?v=1733068361989",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "cellPhones",
+    _base: "phukienmaytinh",
   },
   {
     _id: 1006,
@@ -59,7 +69,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/8.png?v=1733068379988",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "smartWatches",
+    _base: "phukientrangtri",
   },
   {
     _id: 1007,
@@ -67,7 +77,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/7.png?v=1733068376856",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "gameAndVideo",
+    _base: "keycaps",
   },
   {
     _id: 1008,
@@ -75,7 +85,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/5.png?v=1733068370078",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "robotClean",
+    _base: "chuot",
   },
   {
     _id: 1009,
@@ -83,7 +93,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/4.png?v=1733068365486",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "sportWatches",
+    _base: "loaMicromophoneWebcam",
   },
   {
     _id: 1010,
@@ -91,7 +101,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/6.png?v=1733068373637",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "tablets",
+    _base: "linhkienmaytinh",
   },
   {
     _id: 1011,
@@ -99,7 +109,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/33.png?v=1733068395744",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "computersAndLaptop",
+    _base: "lotchuot",
   },
   {
     _id: 1012,
@@ -107,7 +117,7 @@ export const categories = [
     image: "https://cdn.glitch.global/48f15aef-c464-48a8-91d7-2fe554c58fe6/2.png?v=1733068647069",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
-    _base: "camerasAndPhotos",
+    _base: "combbouudai",
   },
 ];
 
@@ -192,7 +202,7 @@ export const products = [
     isStock: true,
     overView: "Blutooth Speaker",
     isNew: true,
-    _base: cat?.tvAndAudio,
+    _base: cat?.gameger,
   },
   {
     _id: 2002,
@@ -217,7 +227,7 @@ export const products = [
     isStock: true,
     overView: "Smart health watch",
     isNew: false,
-    _base: cat?.smartWatches,
+    _base: cat?.mohinh,
   },
   {
     _id: 2003,
@@ -242,7 +252,7 @@ export const products = [
     isStock: true,
     overView: "Smart health watch",
     isNew: true,
-    _base: cat?.sportWatches,
+    _base: cat?.headphones,
   },
   {
     _id: 2004,
@@ -267,7 +277,7 @@ export const products = [
     isStock: false,
     overView: "Cameras & Photos",
     isNew: false,
-    _base: cat?.camerasAndPhotos,
+    _base: cat?.loaMicromophoneWebcam,
   },
   {
     _id: 2005,
@@ -296,28 +306,28 @@ export const products = [
   },
   {
     _id: 2006,
-    name: "Xiaomi Mi Watch Lite GPS Bluetooth 5.1 Smart Watch Sports Fitness Heart Rate Monitor 1.4 Inch TFTLCD Screen 5 ATM Waterproof Mi Band",
+    name: "DÂY CÁP BÀN PHÍM CUSTOM HX301 TYPE-C BỌC DÙ 1.5M SKY BLUE",
     images: [
-      "https://i.ibb.co/1TJp88p/smart-Watch.webp",
-      "https://i.ibb.co/m6ZN7LX/soundBox.webp",
-      "https://i.ibb.co/wdV3b9q/vaccum.webp",
-      "https://i.ibb.co/tcdSfrr/blueGun.jpg",
-      "https://i.ibb.co/pw0fGmx/gaming-Controller.webp",
+      "https://lacdau.com/media/product/250-6004-xanh5.jpg",
+      "https://lacdau.com/media/product/250-6004-xanh6.jpg",
+      "https://lacdau.com/media/product/250-6004-xanh4.jpg",
+      "https://lacdau.com/media/product/250-6004-xanh3.jpg",
+      "https://lacdau.com/media/product/250-6004-xanh2.jpg",
     ],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
-    regularPrice: 300,
-    discountedPrice: 280,
+      "Dây cáp bàn phím cơ Type-C dài 1.5m, lò xo xoắn dây dù cao cấp, trục nối kim loại Sử dụng cho các loại bàn phím cơ giúp góc setup gọn gàng và đẹp hơn, kết nối tín hiệu đảm bảo hơn Độ dài đoạn xoắn: khoảng hơn có thể kéo dài 15cm Độ dài đoạn dây thẳng: khoảng 120cm - Dây bọc paracord + PET Trục: GX12 - Kết nối: type-C Bảo hành : 3 tháng.",
+    regularPrice: 160,
+    discountedPrice: 140,
     quantity: 1,
     rating: 4.8,
     reviews: 110,
-    category: "Smart Watches",
-    colors: ["red", "blue", "green", "yellow", "black", "white"],
-    brand: "Lorem ipsum dolor sit",
+    category: "GameGear",
+    colors: ["#ddedf3"],
+    brand: "none",
     isStock: true,
     overView: "Smart health watch",
     isNew: false,
-    _base: cat.smartWatches,
+    _base: cat.gameger,
   },
   {
     _id: 2007,
@@ -342,32 +352,32 @@ export const products = [
     isStock: true,
     overView: "Microphones",
     isNew: true,
-    _base: cat.headphones,
+    _base: cat.phukientrangtri,
   },
   {
     _id: 2008,
-    name: "New Product Form Lapbook Light Handlift Business Office Game Ben EDP 13.5 In – Black China",
+    name: "MÔ HÌNH MÓC KHÓA DEADPOOL 9CM",
     images: [
-      "https://i.ibb.co/RCHWqkS/laptop.webp",
-      "https://i.ibb.co/m6ZN7LX/soundBox.webp",
-      "https://i.ibb.co/wdV3b9q/vaccum.webp",
-      "https://i.ibb.co/tcdSfrr/blueGun.jpg",
-      "https://i.ibb.co/pw0fGmx/gaming-Controller.webp",
+      "https://lacdau.com/media/product/250-1912-6a8937c1a13c7ba07d0b544a31f5c74c.jpg",
+      "https://lacdau.com/media/product/250-1912-d2d5567eeb5f0b981bdde55a6c06ea0e.jpg",
+      "https://lacdau.com/media/product/250-1912-61426d1089390c592aed9357b8438465.jpg",
+      "https://lacdau.com/media/product/250-1912-4b7185568f73074ab3871436ee45b085.jpg",
+      "https://lacdau.com/media/product/250-1912-6a8937c1a13c7ba07d0b544a31f5c74c.jpg",
     ],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
-    regularPrice: 1100,
-    discountedPrice: 1080,
+      "MÔ HÌNH MÓC KHÓA DEADPOOL 9CM Chất liệu nhựa pvc Chiều cao 9cm Đầu xoay 360 độ.",
+    regularPrice: 50,
+    discountedPrice: 20,
     quantity: 1,
     rating: 4.7,
     reviews: 190,
-    category: "Computers & Laptops",
-    colors: ["red", "blue", "green", "yellow", "black", "white"],
+    category: "MOHINH",
+    colors: ["red"],
     brand: "Lorem ipsum dolor sit",
     isStock: true,
     overView: "Computer Components",
     isNew: false,
-    _base: cat?.computersAndLaptop,
+    _base: cat?.mohinh,
   },
   {
     _id: 2009,
@@ -392,7 +402,7 @@ export const products = [
     isStock: true,
     overView: "Robot Clean",
     isNew: true,
-    _base: cat?.robotClean,
+    _base: cat?.chuot,
   },
   {
     _id: 2010,
@@ -417,7 +427,7 @@ export const products = [
     isStock: true,
     overView: "Cual Sim Phones",
     isNew: true,
-    _base: cat?.cellPhones,
+    _base: cat?.linhkienmaytinh,
   },
   {
     _id: 2011,
@@ -442,7 +452,7 @@ export const products = [
     isStock: true,
     overView: "Security & Protection",
     isNew: true,
-    _base: cat?.camerasAndPhotos,
+    _base: cat?.lotchuot,
   },
   {
     _id: 2012,
@@ -467,7 +477,7 @@ export const products = [
     isStock: true,
     overView: "Power Tools",
     isNew: true,
-    _base: cat?.powerTools,
+    _base: cat?.combbouudai,
   },
   {
     _id: 2013,
@@ -667,7 +677,7 @@ export const products = [
     isStock: true,
     overView: "Bluetooth Speakers",
     isNew: true,
-    _base: cat?.tvAndAudio,
+    _base: cat?.combbouudai,
   },
   {
     _id: 2020,
